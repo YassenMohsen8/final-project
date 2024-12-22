@@ -1,0 +1,13 @@
+.star-rating {
+  display: flex;
+}
+
+.star {
+  font-size: 24px;
+  color: lightgray; /* Default color for unfilled stars */
+  transition: color 0.2s ease-in-out;
+}
+
+.star.filled {
+  color: red; /* Color for filled stars */
+}

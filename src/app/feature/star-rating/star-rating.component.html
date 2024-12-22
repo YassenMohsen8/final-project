@@ -1,0 +1,11 @@
+<div class="star-rating">
+  <span
+    *ngFor="let star of stars; let i = index"
+    class="star"
+    [class.filled]="i + 1 <= rating"
+    (click)="onStarClick(i + 1)"
+    [style.cursor]="isReadOnly ? 'default' : 'pointer'"
+  >
+    &#9733; <!-- Unicode for star -->
+  </span>
+</div>
