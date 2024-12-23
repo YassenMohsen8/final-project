@@ -1,8 +1,8 @@
 <div class="login-container">
   <img class="film" src="assets/images/film.png" alt="" />
-  <div class="logo">Rotten Potatoes</div>
+  <div class="logo">MOVIE SITE</div>
   <div class="desc">
-    Rotten Potatoes is the world’s most trusted recommendation resources for
+    MOVIE SITE is the world’s most trusted recommendation resources for
     quality entertainment. As the leading online aggregator of movie and TV show
     reviews from critics, we provide fans with a comprehensive guide to what’s
     Fresh – and what’s Rotten – in theaters and at home. If you’re an
@@ -31,6 +31,10 @@
     <div class="btn-container">
       <div class="error">{{ errorMsg }}</div>
       <button class="btn btn-dark" (click)="login()">Login</button>
+    </div>
+    <div class="signup-container">
+      <p>Don't have an account?</p>
+      <button class="btn btn-secondary" (click)="goToSignup()">Sign Up</button>
     </div>
   </div>
 </div>

@@ -10,6 +10,7 @@ import { MovieComponent } from './movie/movie.component';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { FeatureModule } from './feature/feature.module';
+import { SignupComponent } from './signup/signup.component';
 
 
 @NgModule({
@@ -18,7 +19,9 @@ import { FeatureModule } from './feature/feature.module';
     LoginComponent,
     HomeComponent,
     HeaderComponent,
-    MovieComponent
+    MovieComponent,
+    SignupComponent,
+    SignupComponent 
   ],
   imports: [
     BrowserModule,

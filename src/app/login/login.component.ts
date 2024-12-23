@@ -34,5 +34,8 @@ export class LoginComponent implements OnInit {
       }
     }
   }
-
+  goToSignup() {
+    // Redirect to signup page
+    this.router.navigate(['signup']);
+  }
 }
